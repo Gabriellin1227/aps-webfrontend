@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: inter;
+}
+
+/* CSS - GERAL */
+
+.flex {
+    display: flex;
+}
+
+.container-principal {
+    padding: 80px 220px;
+}
+
+/* CSS - GERAL */
+header {
+    background: #E57D90 ;
+    width: 100%;
+    color: #fff;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 106px;
+}
+
+.text h1 {
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    margin: 10px;
+    gap: 48px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* SECTION PRINCIPAL */
+
+section.section-principal {
+    width: 100%;
+    background: #FDB4BF;
+}
+
+section.section-principal .flex {
+    gap: 100px;
+}
+
+.text-principal .flex {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-principal h1 {
+    color: #fff;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -1.3px;
+    width: 593px;
+    margin: 0 0 32px 0;
+}
+
+.text-principal p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    width: 593px;
+    
+}
+
+.button-cta .flex{
+    flex-direction: column;
+}
+
+.button-cta button {
+    padding: 16px 26px;
+    border-radius: 12px;
+    border: none;
+    background: #E57D90;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin: 53px 0 53px 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.button-cta button:hover {
+    box-shadow: 0px 0px 8px #f18c9b;
+    transform: scale(1.05);
+}
+
+.imagem-principal img {
+    width: 785px;
+    height: 640px;
+    border-radius: 16px;
+    border: 1px solid #E57D90;
+}
+
+.logo-parceiros img {
+    width: 60px;
+    height: 60px;
+}
+
+/* SECTION2 - Benefícios e features */
+
+section.section-features {
+    width: 100%;
+    background: #FDB4BF;
+}
+
+section.section-features .flex {
+    gap: 32px;
+}
+
+h2.titulo {
+    width: 1464px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 53px;
+    text-align: center;
+}
+
+.section-features .features-box {
+    color: #fff;
+    padding: 32px;
+    width: 474px;
+    height: 238px;
+    border-radius: 6px;
+    border: 1px solid #E57D90;
+    margin-top: 82px;
+    transition: .2s;
+}
+
+.section-features .features-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #f18c9b;
+}
+
+.section-features .features-box i {
+    font-size: 48px;
+}
+
+.section-features .features-box h3 {
+    font-size: 32px;
+    margin: 32px 0;
+}
+
+.section-features .features-box p {
+    font-size: 21px;
+}
+
+/* SECTION3 - Depoimentos */
+
+section.section-depoimentos {
+    width: 100%;
+    background: #FDB4BF;
+}
+
+section.section-depoimentos .flex {
+    gap: 40px;
+}
+
+.section-depoimentos .depoimento-box {
+    padding: 32px;
+    background: #fff;
+    margin: 62px 0 0 0;
+}
+
+.section-depoimentos .depoimento-box p {
+    margin: 0 0 178px 0;
+    width: 400px;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 37px;
+    font-style: normal;
+    align-items: center;
+}
+
+.section-depoimentos .depoimento-box h5 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.section-depoimentos .depoimento-box h6 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.section-depoimentos .depoimento-box i{
+    font-size: 21px;
+    float: right;
+    margin: -21px 0 0 0;
+    padding: 0 10px;
+}
+
+/* SECTION4 - Como funcionamos */
+
+section.section-comofunciona {
+    width: 100%;
+    background: #FDB4BF;
+}
+
+section.section-comofunciona .flex {
+    gap: 42px;
+}
+
+.section-comofunciona .comofazer-box {
+    color: #fff;
+    flex-direction: column;
+    margin: 152px 0 0 0;
+}
+
+.section-comofunciona .comofazer-box h1{
+    font-size: 32px;
+    width: 64px;
+    height: 64px;
+    border-radius: 48px;
+    border: 1px dashed #FFF;
+    background: #E57D90;
+    text-align: center;
+    align-content: center;
+    margin: 0 0 32px 0;
+}
+
+.section-comofunciona .comofazer-box h3 {
+    font: 32px;
+}
+
+.section-comofunciona .comofazer-box p {
+    margin: 32px 0 0 0;
+    font: 21px;
+}
+
+/* SECTION5 - texto-cta */
+
+h1.titulo {
+    
+}
