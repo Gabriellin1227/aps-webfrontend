@@ -245,11 +245,9 @@ section.section-comofunciona .flex {
 }
 
 .number {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
-    position: relative;
-
+    text-align: center;
 }
 
 .section-comofunciona .comofazer-box h3 {
