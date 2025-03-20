@@ -31,17 +31,17 @@ header {
     font-weight: 800;
 }
 
-nav ul {
+header nav ul {
     display: flex;
     margin: 10px;
     gap: 48px;
 }
 
-nav ul li {
+.text nav ul li {
     list-style-type: none;
 }
 
-nav ul li a {
+.text nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
@@ -225,7 +225,7 @@ section.section-comofunciona {
 }
 
 section.section-comofunciona .flex {
-    gap: 42px;
+    gap: 42px
 }
 
 .section-comofunciona .comofazer-box {
@@ -234,20 +234,26 @@ section.section-comofunciona .flex {
     margin: 152px 0 0 0;
 }
 
-.section-comofunciona .comofazer-box h1{
+.section-comofunciona .comofazer-box .number{
     font-size: 32px;
     width: 64px;
     height: 64px;
     border-radius: 48px;
     border: 1px dashed #FFF;
     background: #E57D90;
-    text-align: center;
-    align-content: center;
     margin: 0 0 32px 0;
 }
 
+.number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
 .section-comofunciona .comofazer-box h3 {
-    font: 32px;
+    font-size: 32px;
 }
 
 .section-comofunciona .comofazer-box p {
@@ -316,6 +322,7 @@ section.section-faq .flex {
 .section-faq hr {
     color: #fff;
     height: 1px;
+    width: 700px;
 }
 
 .text-faq h5 {
@@ -326,3 +333,103 @@ section.section-faq .flex {
     margin: 31px 0 31px 0;
 }
 
+.text-faq i {
+    position: absolute;
+    font-size: 21px;
+    color: #fff;
+    right: 650px;
+}
+
+/* SECTION7 - footer */
+
+footer {
+    width: 100%;
+    background: #FDB4BF;
+}
+
+#footer_content {
+    background-color: #FDB4BF;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 53px 220px;
+}
+
+#footer_contacts h1 {
+    margin: 0 0 0.75rem 0;
+    font-size: 42px;
+    color: #FFF;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 1.9rem;
+    color: #FFF;
+    margin: 1.5rem 0 0 0;
+}
+
+#footer_social_media .footer-link {
+    height: 2.5rem;
+    height: 2.5rem;
+    color: #FFF;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+    color: #FFF;
+}
+
+.footer_list li h3 {
+    margin: 0 0 21px;
+}
+
+.footer_list .footer-link {
+    color: #fff;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.footer-list .footer-link:hover {
+    opacity: 0.8;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe h3 {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+#footer_subscribe p {
+    color: #fff;
+    opacity: 0.6;
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: #E57D90;
+    width: 444px;
+    height: 64px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    margin: 0 16px;
+}
